@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Hockeys Club</title>
+    <!-- css file link korchi -->
+    <link rel="stylesheet" href="style.css">
+    <!-- this is for tailwind and daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontowsome link for font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!--font owsome for icon  -->
+    <script src="https://kit.fontawesome.com/b4d7b66561.js" crossorigin="anonymous"></script>
+    <!-- tailwind custom color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- font er cls -->
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+
+                <a class="text-3xl font-semibold"> <i
+                        class="fa-solid fa-arrow-up fa-s rotate-45 h-9 w-9 rounded-full bg-[#ABEF5F] items-start  "></i>Rinterio</a>
+
+
+
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden border-2 bg-gray-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex ">
+                <ul class="menu menu-horizontal px-1 font-bold text-base text-[#737373]">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end fu:hidden   flex gap-4  ">
+                <i class="fa-solid fa-magnifying-glass fa-2x  h-8 w-8 rounded-full bg-white "></i>
+                <i class="fa-solid fa-cart-shopping fa-2x  h-8 w-8 rounded-full bg-white"></i>
+                <button class="btn btn-secondary rounded-full border-none bg-[#ABEF5F] font-bold text-xl ">Book
+                    Consult
+                    <i class="fa-solid fa-arrow-up fa-s  rotate-45 h-8 w-8 rounded-full 
+                             items-start  "></i></button>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
